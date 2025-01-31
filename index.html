@@ -30,6 +30,7 @@
                 extend: {
                   colors: {
                     clifford: '#da373d',
+                    bg-white: 'rgba(255, 255, 255, 1)'
                   }
                 }
               }
@@ -44,8 +45,9 @@
     
    
     <header class="container mx-auto bg-base-200">
+      <!-- navbar related -->
 <nav>
-  <div class="navbar bg-base-100">
+  <div class="navbar bg-base-200 pl-20 pr-20">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -99,13 +101,13 @@
   </div>
 </nav>
       
-        <banner class="bg-base-200">
+        <banner class="bg-base-200 mt-20 mb-20">
           
           <div class="hero bg-base-200 flex  items-center justify-center">
             <div class="hero-content grid grid-cols-1">
               <div class="text-center">
-                <h1 class="text-5xl font-bold">Freshness <span class="text-accent text-semibold">You Can <br> 
-                  Count</span> On, Prices You’ll Love!</h1>
+                <h2 class="text-4xl font-bold">Freshness <span class="text-accent text-semibold">You Can <br> 
+                  Count</span> On, Prices You’ll Love!</h2>
                 <p class="py-6">
                   Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!
                 </p>
@@ -122,6 +124,66 @@
     </header> 
 
     <main>
+      <!-- Services -->
+      <section class="py-20 pl-20 pr-20">
+        <h2 class="text-2xl font-bold text-accent mb-10">Services</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+<!-- card 1 -->
+            <div class="card bg-base-300 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img class="bg-white rounded-full p-5 "
+                  src="/c2-assets/service.png" 
+                  alt="Shoes"
+                  class="rounded-xl"/>
+                
+                  
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">24/7 Services</h2>
+                <p>For your service, we eagerly provide day to night, 24/7 service.</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+
+            <!-- card 2 -->
+            <div class="card bg-base-300 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img class="bg-white rounded-full p-5 "
+                  src="/c2-assets/delivery.png" 
+                  alt="Shoes"
+                  class="rounded-xl"/>
+                
+                  
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">Fast Delivery</h2>
+                <p>We delivery your product as fast as possible and of course efficiently.</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card bg-base-300 w-80 shadow-xl">
+              <figure class="px-10 pt-10">
+                <img class="bg-white rounded-full p-5 "
+                  src="/c2-assets/service.png" 
+                  alt="Shoes"
+                  class="rounded-xl"/>
+                
+                  
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="card-title">24/7 Services</h2>
+                <p>For your service, we eagerly provide day to night, 24/7 service.</p>
+                <div class="card-actions">
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
         </main>
 
         <footer>
