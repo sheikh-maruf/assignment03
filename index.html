@@ -46,64 +46,67 @@
 <body class="font-sora">
     
    
-    <header class="container mx-auto bg-base-300">
+    <header class="container w-320 mx-auto bg-base-200">
+
       <!-- navbar related -->
-<nav>
-  <div class="navbar bg-base-200 pl-20 pr-20">
-    <div class="navbar-start">
-      <div class="dropdown">
-        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M4 6h16M4 12h8m-8 6h16" />
-          </svg>
+
+      <nav class="pl-20 pr-20">
+        <div class="navbar w-full bg-base-200 justify-center items-center">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor">
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16" />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                <li><a>Product</a></li>
+                <li>
+                  <a>Service</a>
+                
+                </li>
+                <li><a>Contact Us</a></li>
+              </ul>
+              
+              
+            </div>
+            <img src="/c2-assets/logo-header.png">
+          </div>
+          <div class="navbar-center hidden lg:flex gap-40">
+            <ul>
+              
+            </ul>
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Product</a></li>
+              <li><a>Service</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+            <ul class="flex gap-5">
+              <li><i class="fa-solid fa-magnifying-glass"></i></li>
+              <li><i class="fa-solid fa-cart-shopping"></i></li>
+              <li><button class="btn btn-outline btn-success">Success</button></li>
+              <li><button class="btn btn-success">Success</button></li>
+            </ul>
+            
+          </div>
+          
         </div>
-        <ul
-          tabindex="0"
-          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-          <li><a>Item 1</a></li>
-          <li>
-            <a>Parent</a>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </li>
-          <li><a>Item 3</a></li>
-        </ul>
-      </div>
-      <a class="btn btn-ghost text-xl">daisyUI</a>
-    </div>
-    <div class="navbar-center hidden lg:flex">
-      <ul class="menu menu-horizontal px-1">
-        <li><a>Item 1</a></li>
-        <li>
-          <details>
-            <summary>Parent</summary>
-            <ul class="p-2">
-              <li><a>Submenu 1</a></li>
-              <li><a>Submenu 2</a></li>
-            </ul>
-          </details>
-        </li>
-        <li><a>Item 3</a></li>
-      </ul>
-    </div>
-    <div class="navbar-end">
-      <a class="btn">Button</a>
-    </div>
-  </div>
-</nav>
+      </nav>
+
+
       
-        <banner class="w-320 bg-base-200 mt-20 mb-20">
+        <banner class="w-320 bg-base-200 mb-20">
           
           <div class="hero bg-base-200 flex  items-center justify-center">
             <div class="hero-content grid grid-cols-1">
@@ -186,6 +189,8 @@
             </div>
           </div>
       </section>
+
+    
 
       <!-- Popular Products -->
        <section class="w-320 h-1000 p-20 bg-base-300 justify-center items-center">
@@ -369,7 +374,7 @@
 
        <!-- Arrivals and Offers -->
 
-       <section class="mt-20 m-20 h-400 ">
+       <section class="mt-20 m-20 mb-10 h-400 ">
 
 <h1 class="text-3xl font-bold mb-10 text-green-500">Arrivals & Offers
 </h1>
@@ -412,7 +417,7 @@
 
         <footer>
 
-          <div class="card bg-base-100 w-120 lg:flex-row m-0 lg:m-20 bg-base-300 p-2 lg:p-10">
+          <div class="card bg-base-100 w-120 lg:flex-row m-5 lg:m-20 bg-base-300 p-2 lg:p-10">
             <figure class=" pt-10">
               <img
                 src="/c2-assets/vegetable-busket.png"
@@ -427,6 +432,62 @@
                 <button class="btn btn-success">Subscribe</button>
               </div>
             </div>
+          </div>
+
+          <div>
+            <footer class="footer bg-base-200 text-base-content pt-80 pl-20 pr-20 pb-20 bg-green-600 -mt-80"> 
+              <nav>
+                <img class="" src="/c2-assets/logo-footer.png">
+                <p class="text-white">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</p>
+              </nav>
+
+              <nav>
+                <a class="link link-hover text-white">Product</a>
+                <a class="link link-hover text-white">Services</a>
+                <a class="link link-hover text-white">Contact us</a>
+              </nav>
+              <nav class="md:place-self-center md:justify-self-end">
+                <div class="grid grid-flow-col gap-4">
+                  <a class="text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                    </svg>
+                  </a>
+                  <a class="text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                    </svg>
+                  </a>
+                  <a class="text-white">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      class="fill-current">
+                      <path
+                        d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                    </svg>
+                  </a>
+                </div>
+              </nav>
+              
+            </footer>
+            <!-- <footer class="footer bg-base-200 text-base-content border-base-300 border-t px-10 py-4"> -->
+              
+            </footer>
           </div>
             </footer>
 </body>
